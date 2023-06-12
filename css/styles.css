@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 
     color: #212121;
+    font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: #FFFFFF;
@@ -17,6 +18,7 @@ a {
 h1,
 h2,
 h3,
+h4,
 p,
 ul {
     margin: 0;
@@ -46,7 +48,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 115px;
+    padding-left: 70px;
 }
 
 .sidebar-section:not(:last-child) {
@@ -58,6 +60,8 @@ ul {
 }
 
 .picture {
+    display: block;
+
     margin-bottom: 30px;
 
     border-radius: 5px;
@@ -147,7 +151,7 @@ ul {
 }
 
 .project {
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .project-link-box {
@@ -155,7 +159,8 @@ ul {
 }
 
 .project-link-box a {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .project-link-box a:not(:last-child) {
