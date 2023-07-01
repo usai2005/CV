@@ -90,6 +90,12 @@ ul {
     margin-bottom: 10px;
 }
 
+/* .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 .info-title-section {
     display: flex;
     flex-direction: column;
