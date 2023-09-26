@@ -132,6 +132,10 @@ ul {
     margin-bottom: 10px;
 }
 
+.unit-list {
+    list-style: none;
+}
+
 .info-unit {
     margin-bottom: 20px;
 }
@@ -149,6 +153,8 @@ ul {
 
 .info-list {
     padding-left: 15px;
+
+    list-style-type: disc;
 }
 
 .info-list > li:not(:last-child) {
@@ -160,8 +166,8 @@ ul {
     padding-bottom: 3px;
 }
 
-.project {
-    margin-bottom: 10px;
+.project:not(:last-child) {
+        margin-bottom: 10px;
 }
 
 .project-link-box {
@@ -170,7 +176,7 @@ ul {
 
 .project-link-box a {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .project-link-box a:not(:last-child) {
